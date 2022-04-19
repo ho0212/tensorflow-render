@@ -7,6 +7,7 @@ import tensorflow as tf
 from PIL import Image
 from tensorflow import keras
 from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input
+from tensorflow.keras.applications.densenet import DenseNet121,preprocess_input
 import numpy as np
 #from tensorflow.keras.utils.data_utils import get_file
 from io import BytesIO
